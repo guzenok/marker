@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.marker.fabel.android_client.CreateSheetActivity">
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnCount="2"
+        android:rowCount="4"
+        android:rowOrderPreserved="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:labelFor="@+id/sheet_name"
+            android:padding="10dp"
+            android:text="@string/label_sheet_name"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/sheet_name"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:labelFor="@+id/mark_value"
+            android:padding="10dp"
+            android:text="@string/label_mark_value"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            tools:layout_width="wrap_content" />
+
+        <EditText
+            android:id="@+id/mark_value"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:labelFor="@+id/mark_descr"
+            android:padding="10dp"
+            android:text="@string/label_mark_descr"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            tools:layout_width="wrap_content" />
+
+        <EditText
+            android:id="@+id/mark_descr"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:ems="10"
+            android:inputType="text"
+            android:text="?" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="end"
+            android:text="@string/ok" />
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
