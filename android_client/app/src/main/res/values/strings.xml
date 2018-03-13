@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Marker</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="format_date">MM.dd.yyyy HH:mm</string>
+
+    <string name="label_sheet_name">Таблица</string>
+    <string name="label_mark_value">Балл</string>
+    <string name="label_mark_descr">Примечание</string>
+    <string name="label_marks_descr">Отзывы:</string>
+    <string name="label_login">номер телефона</string>
+    <string name="label_password">(пока не требуется)</string>
+    <string name="label_mark_history">история:</string>
+
+    <string name="ok">OK</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="err_get_sheet">Не удалось получить таблицу</string>
+    <string name="err_save_sheet">Не удалось сохранить таблицу</string>
+    <string name="err_delete_sheet">Не удалось удалить таблицу</string>
+    <string name="err_save_mark">Не удалось сохранить оценку</string>
+    <string name="err_invalid_password">This password is too short</string>
+    <string name="err_incorrect_password">This password is incorrect</string>
+    <string name="err_field_required">Укажите значение</string>
+
+    <string name="msg_loading">Минутку ...</string>
+    <string name="msg_empty_fields">заполните все поля</string>
+    <string name="msg_delete_sheet">Удалить безвозвратно?</string>
+
+    <string name="tab_my">МОИ</string>
+    <string name="tab_known">ИЗВЕСТНЫЕ</string>
+    <string name="tab_search">ПОИСК</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">ВОЙТИ</string>
+    <string name="action_sign_in_short">вход</string>
+
+</resources>
